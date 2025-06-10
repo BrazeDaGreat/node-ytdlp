@@ -22,7 +22,7 @@ An object-oriented Node.js wrapper for [yt-dlp](https://github.com/yt-dlp/yt-dlp
 
 ```bash
 # Install the wrapper dependencies
-npm install ffmpeg-static ffprobe-static
+npm install ffmpeg-static
 
 # Install yt-dlp (required)
 pip install yt-dlp
