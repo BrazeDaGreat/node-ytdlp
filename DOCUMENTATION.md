@@ -24,21 +24,12 @@ A powerful, object-oriented Node.js wrapper for yt-dlp that enables easy YouTube
 ### Package Installation
 
 ```bash
-# Required packages
-npm install yt-dlp-wrap
+# Install the wrapper dependencies
+npm install ffmpeg-static
 
-# Recommended for high-quality downloads
-npm install ffmpeg-static ffprobe-static
-```
-
-### Project Setup
-
-```bash
-# Clone or copy the wrapper files
-cp ytdlp-wrapper.js your-project/
-cp index.js your-project/
-
-# Or include in your package.json
+# Install yt-dlp (required)
+pip install yt-dlp
+# or download from: https://github.com/yt-dlp/yt-dlp/releases
 ```
 
 ## Quick Start
